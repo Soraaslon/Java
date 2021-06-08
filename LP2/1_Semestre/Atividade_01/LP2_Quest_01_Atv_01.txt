@@ -1,0 +1,16 @@
+1.	Com relação a Java Collections Framework descreva quais são as principais características das interfaces List, Set e Queue. Verificar na documentação oficial do Java e apresentar a funcionalidade e assinatura completa de dois métodos de cada interface.
+
+   R:
+	List: Define uma lista ordenada, e sua ordem é definida pela ordem de chegada, pode armazenar elementos duplicados.
+	- public default void replaceAll(UnaryOperator<E> operator); Troca todos os elementos da lista pelo resultado da operação;
+	- public default void sort(Comparator<? super E> c); Ordena a lista de acordo com o comparado específicado.
+
+
+	Set: Não possui uma ordem, mas não permite elementos duplicados.
+	- public boolean isEmpty(); Retorna verdadeiro caso set esteja vazio;
+	- public void clear(); Remove todos os elementos de set.
+
+
+	Queue: Permite a criação de pilhas e filas:
+	- public E poll(); Recupera e remove o início da fila, ou nulo caso esteja vazia;
+	- public E peek(); Recupera o início da fila sem removê-lo, ou nulo caso esteja vazia.
