@@ -1,6 +1,6 @@
 # Linguagem Java
 
-<p>Esses materias e exercícios foram desenvolvidos nas disciplinas de Lógica 2, Linguagem de programação 1 e 2, do 2° e 3° ano do técnico de informática do IFSP</p>
+<p>Esses códigos na linguagem Java, foram desenvolvidos nas disciplinas de LG2, LP1 e LP2, do 2° e 3° ano do técnico de informática do IFSP</p>
 
 <ul>
      <li>Feito por: José Roberto Claudino Ferreira</li>
